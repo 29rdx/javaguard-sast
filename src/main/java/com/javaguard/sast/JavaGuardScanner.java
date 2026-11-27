@@ -16,7 +16,8 @@ public class JavaGuardScanner {
             new XxeRule(),
             new DeserializationRule(),
             new WeakCryptoRule(),
-            new SecretsAndTlsRule()
+            new SecretsAndTlsRule(),
+            new PathTraversalRule()
         );
     }
 
